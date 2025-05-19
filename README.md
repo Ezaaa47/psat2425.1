@@ -41,7 +41,9 @@ Kemudian inputkanlah data sesuai dengan datamu
 #
 # Pengumpulan Hasil
 Catat Link repositry anda
-Screenshoot halaman Data Siswa (dashboard.php) yang sudah ada namamu.
+
+Screenshoot halaman Data Siswa (dashboard.php) yang sudah ada namamu
+
 Kumpulkan ke Form yang ada di dalam GC 
 
 #
