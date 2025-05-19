@@ -3,8 +3,8 @@
 ### SMKN 1 Banyumas - TA. 2024 2025
 
 
-
-Cara mendeploy Aplikasi
+#
+# Cara mendeploy Aplikasi
 
 ## 1. Buat File .env
 
@@ -13,43 +13,35 @@ File .env adalah file environment sistem mirip seperti file konfig.php
 isi file .env sebagai berikut
 
 ```.env
-DB_USER=....
-DB_PASS=....
-DB_NAME=....
-DB_HOST=....
+DB_USER=....  (isi dengan user RDS)
+DB_PASS=....  (isi dengan password RDS)
+DB_NAME=....  (isi dengan nama database yang akan dibuat di RDS)
+DB_HOST=....  (isi dengan Endpoint RDS)
 ```
 
 contoh:
 
 ```.env
 DB_USER=admin
-DB_PASS=P@ssw0rd
+DB_PASS=P4ssw0rd123
 DB_NAME=psat2425
-DB_HOST=localhost
+DB_HOST=rdsku.czt6n8ylfvyb.us-east-1.rds.amazonaws.com
 ```
 
-## Usage
+## 2. Jalankan 
+Jalankan dengan username dan password default berikut ini
+#
+### username = admin
+### password = 123
+#
 
-```python
-import foobar
+Kemudian inputkanlah data sesuai dengan datamu
 
-# returns 'words'
-foobar.pluralize('word')
 
-# returns 'geese'
-foobar.pluralize('goose')
+#
+# Pengumpulan Hasil
+Catat Link repositry anda
+Screenshoot halaman Data Siswa (dashboard.php) yang sudah ada namamu.
+Kumpulkan ke Form yang ada di dalam GC 
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+#
